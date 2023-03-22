@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.btn {
+    width: 75px;
+    height: 75px;
+    margin: 15px;
+    font-size: 40px;
+}
+
+.numbers:hover {
+    background-color: palegreen;
+
+}
+
+.numbers{
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+}
+
+.operators:hover{
+    background-color: powderblue;
+}
+
+.operators{
+    border: 1px solid steelblue;
+    border-radius: 10px;
+}
+
+.decimal:hover{
+    background-color: palegoldenrod;
+}
+
+.decimal{
+    border: 1px solid gold;
+    border-radius: 10px;
+}
+
+.equal:hover{
+    background-color: palegreen;
+}
+
+.equal{
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+#clear-btn:hover{
+    background-color: palevioletred;
+}
+
+#clear-btn{
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+.first-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#screen{
+    width: 300px;
+    border: 1px solid salmon;
+    height: 75px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.previous{
+    font-size: 20px;
+}
+
+.current{
+    font-size: 30px;
+}
